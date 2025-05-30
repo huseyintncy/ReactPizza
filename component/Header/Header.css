@@ -1,0 +1,93 @@
+header { 
+  background-image: url("images/iteration-1-images/home-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px; 
+  
+}
+.logo1 {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.main-section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.main-section h2 {
+  font-family: Satisfy;
+  color: #FDC913;
+}
+.main-section p {
+ 
+  flex-direction: row;
+  font-family: Barlow;
+  color: white;
+  font-size: 4rem;
+  
+  
+  
+}
+.main-section h2,
+.main-section p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.icon-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  margin-top: 10px; 
+  padding:  10px 0; 
+  background-color: #f8f8f8; 
+  text-align: center;
+  
+  
+  
+  
+}
+.menu-list {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+  padding: 0;
+  margin: 0;
+}
+.menu-list li {
+  display: flex;
+  flex-direction: row;   
+  align-items: center;         
+  gap: 0.5rem;                    
+  font-size: 1rem;
+  color: black;
+  padding: 15x 10px;
+  
+}
