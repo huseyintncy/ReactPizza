@@ -9,6 +9,9 @@
 .logo-3{
     width:20rem;
 }
+
+
+
 .order-container {
   width: 100%;
   max-width: 600px;
@@ -47,6 +50,10 @@
   overflow: hidden;
   text-overflow: ellipsis;
   height: 2rem; 
+  width: 30%;
+}
+.topping-item input {
+  margin-right: 10px;
 }
 
 
@@ -63,7 +70,7 @@
   justify-content: flex-start;
   gap: 1rem;
   margin-bottom: 0.75rem;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .quantity-controls {
@@ -142,19 +149,54 @@ textarea {
   color: #000;
 }
 
+.price-rating-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+}
+
+.rating {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.rating-count {
+  color: #666;
+  font-weight: normal;
+}
+
+
+
 
 .total-box {
   flex: 1;
-  border: 1px solid #ddd;
+  border: 1px solid grey !important; 
   padding: 1.5rem;
-  border-radius: 10px;
-  background-color:white;
+  
+  background-color: white; 
   min-width: 280px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 180px; 
+  height: 180px;
+  color: #000; 
 }
+
+.total-box h4,
+.total-box p,
+.price-row,
+.total-price {
+  color: #000; 
+}
+
 
 .total-box h4 {
   margin: 0 0 1rem 0;

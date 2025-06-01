@@ -1,0 +1,244 @@
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-section {
+    text-align: center; /* Ya da center, ne isteniyorsa */
+  }
+  .main-section h2 {
+    display: none;
+  }
+  .menu-list li {
+    width: 40%;
+    height:5%;
+    display: flex;
+  }
+  .icon-container ul.menu-list,
+  .icon-container ul.menu-list-alt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    
+  }
+
+  .card-left,
+  .card-right {
+    width: 100%;
+  }
+  .card-left .card-image-wrapper,
+  .card-right .card-image-wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .card-image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+
+  .card-content,
+  .card-content2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+  }
+
+  
+  .card-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main-menu {
+    text-align: center;
+    padding: 20px 16px;
+  }
+
+  .main-menu h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .main-menu p {
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+  }
+  .food-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .food-item {
+    width: calc(33.333% - 20px);
+  }
+  .icon1 .menu-list-alt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+
+  .icon1 .menu-list-alt li {
+    width: 30%; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+  }
+
+  .icon1 .menu-list-alt img {
+    width: 40px;
+    height: 40px;
+  }
+  .food-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+  }
+
+  .food-item {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .food-item img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+
+  .food-item h2 {
+    font-size: 1.2rem;
+    margin: 12px 0 8px;
+  }
+
+  .food-item .p-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 200px;
+    font-size: 0.9rem;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start; 
+  }
+
+  .footer-section {
+    text-align: left;
+  }
+
+  
+  .head-1 {
+    margin-bottom: 12px;
+  }
+
+  .icon-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 8px;
+  }
+
+  .icon-text p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  
+  .hot-menu h2 {
+    margin-bottom: 10px;
+  }
+
+  .hot-menu{
+    padding: 0;
+    margin: 0;
+  }
+
+  .hot-menu p {
+    margin: 4px 0;
+    font-size: 12px;
+    word-wrap: break-word;
+    
+  }
+  
+ 
+  .insta-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 300px; 
+  }
+  
+  .insta-section img {
+    width: 65%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  /* Alt bar */
+  .footer-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #1a1a1a;
+    color: white;
+  }
+
+  .bar-right {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .bar-left {
+    align-items: flex-end;
+  }
+
+  .bar-left {
+    font-size: 20px;
+    color: white;
+    
+  }
+
+}

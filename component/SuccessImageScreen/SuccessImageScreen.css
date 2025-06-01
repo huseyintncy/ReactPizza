@@ -1,0 +1,31 @@
+.success-image-screen {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.success-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.summary-button {
+    position: absolute;
+    top: 75%; 
+    left: 50%;
+    transform: translate(-50%, 0); 
+    padding: 12px 20px;
+    background-color: #fdc913;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+.summary-button:hover {
+    background-color: #fbbd08;
+}
